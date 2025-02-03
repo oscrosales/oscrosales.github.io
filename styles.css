@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro');
+
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6 {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kantumruy Pro';
+    font-size: 24px;
+    color: white;
+}
+
+/* MAIN COMPONENTS */
+
+.gradient-container {
+    overflow: hidden;
+    background-image: linear-gradient(#271F47 39%, #2E2E2E 96%);
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    overflow: hidden;
+    background: #2E2E2E;
+    height: 150rem;
+    width: 100%;
+}
+
+.line {
+    border-left: 4px solid #747474;
+    margin-left: 19rem;
+    display: inline-block;
+}
+
+.break {
+    border: 4px solid #747474;
+    outline: 8px solid #ffffff;
+    outline-offset: -0.8rem;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 18.37rem;
+}
+
+/* NAVIGATION */
+.navbar {
+    padding: 20px;
+    background-color: rgba(39, 31, 71,.7);
+    position: fixed;
+    width: 100%;
+}
+
+.icon {
+    border: 4px solid white;
+    border-radius: 100px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px
+}
+
+.links {
+    display: inline;
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 5px;
+}
+
+    .nav-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-item a:hover {
+        color: rgb(62, 115, 115);
+    }
+
+/* INDEX */
+
+.index {
+
+}
+
+.profile {
+    margin: 8rem 10rem;
+    height: 18rem;
+}
+
+    .profile img {
+        border-radius: 100%;
+        outline: 4px solid #ffffff;
+        max-height: 18rem;
+    }
+
+.bio {
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 30rem;
+    top: 13rem;
+}
+
+.bio p {
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 22px;
+    max-width: 100%;
+}
+
+/* ABOUT */
+
+.about {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 5px;
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    padding-left: 23rem;
+}
+
+    .about p {
+        max-width: 45%;
+        letter-spacing: normal;
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    .about p a {
+        color: white;
+    }
