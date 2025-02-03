@@ -56,11 +56,13 @@ h6 {
 
 .hidden {
     opacity: 0;
-    transition: all 2s;
+    transform: translateX(-5%);
+    transition: all 1s;
 }
 
 .show {
     opacity: 1;
+    transform: translateX(0px);
 }
 
 /* NAVIGATION */
