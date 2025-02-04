@@ -35,14 +35,14 @@ h6 {
 .main-container {
     overflow: hidden;
     background: #2E2E2E;
-    height: 180rem;
+    height: 250rem;
     width: 100%;
 }
 
 .line {
     position: absolute;
     top: 50%;
-    bottom: -450%;
+    bottom: -1000%;
     left: 24%;
     z-index: 0;
     width: 1px;
@@ -185,5 +185,8 @@ h6 {
 .sub-points li {
     font-size: 20px;
     margin-left: 2rem;
+}
+
+ul li {
     padding-bottom: 10px;
 }
