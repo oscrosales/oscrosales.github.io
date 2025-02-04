@@ -79,6 +79,11 @@ h6 {
     transform: translateX(0px);
 }
 
+.video {
+    transition: all 800ms;
+    filter: blur(2px);
+}
+
 /* NAVIGATION */
 .navbar {
     padding: 20px;
