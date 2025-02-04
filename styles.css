@@ -35,14 +35,14 @@ h6 {
 .main-container {
     overflow: hidden;
     background: #2E2E2E;
-    height: 130rem;
+    height: 180rem;
     width: 100%;
 }
 
 .line {
     position: absolute;
     top: 50%;
-    bottom: -250%;
+    bottom: -450%;
     left: 24%;
     z-index: 0;
     width: 1px;
@@ -176,3 +176,14 @@ h6 {
     .about a:hover {
         color: rgb(62, 115, 115);
     }
+
+.sub-points {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.sub-points li {
+    font-size: 20px;
+    margin-left: 2rem;
+    padding-bottom: 10px;
+}
