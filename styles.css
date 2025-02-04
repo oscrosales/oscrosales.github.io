@@ -35,7 +35,7 @@ h6 {
 .main-container {
     overflow: hidden;
     background: #2E2E2E;
-    height: 150rem;
+    height: 130rem;
     width: 100%;
 }
 
@@ -97,6 +97,11 @@ h6 {
     padding: 5px
 }
 
+    .icon:hover {
+        border: 3px solid rgb(62, 115, 115);
+        color: rgb(62, 115, 115);
+    }
+
 .links {
     display: inline;
     float: right;
@@ -157,29 +162,17 @@ h6 {
 
 /* ABOUT */
 
-.about {
-    display: inline-block;
+.text {
+    max-width: 55%;
+    letter-spacing: normal;
+    font-size: 22px;
+    font-weight: normal;
 }
 
-.about:nth-child(0) {
-    transition-delay: 200ms;
+.about a {
+    color: white;
 }
 
-.about:nth-child(1) {
-    transition-delay: 400ms;
-}
-
-    .text {
-        max-width: 50%;
-        letter-spacing: normal;
-        font-size: 22px;
-        font-weight: normal;
+    .about a:hover {
+        color: rgb(62, 115, 115);
     }
-
-    .about a {
-        color: white;
-    }
-
-        .about a:hover {
-            color: rgb(62, 115, 115);
-        }
