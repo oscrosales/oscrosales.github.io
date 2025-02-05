@@ -29,6 +29,8 @@ body {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    width: auto;
+    overflow-x: hidden;
 }
 
 /* MAIN COMPONENTS */
@@ -36,12 +38,14 @@ body {
 .gradient-container {
     background-image: linear-gradient(#271F47 39%, #2E2E2E 96%);
     background-size: cover;
+    width: auto;
 }
 
 .main-container {
     background: #2E2E2E;
     height: 300rem;
     background-size: cover;
+    width: auto;
 }
 
 .line {
