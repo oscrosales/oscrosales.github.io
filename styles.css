@@ -243,6 +243,10 @@ ul li {
         left: 5%;
     }
 
+    .profile img {
+        width: 400px;
+    }
+
     .bio {
         font-weight: bold;
         font-size: 42px;
