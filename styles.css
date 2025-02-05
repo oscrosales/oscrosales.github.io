@@ -216,3 +216,66 @@ ul li {
     font-size: 45px;
     color: rgb(156, 185, 209);
 }
+
+.video {
+    max-width: 640px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .break {
+        margin-bottom: -46px;
+        margin-left: -50px;
+    }
+
+    .line {
+        display: none;
+        left: 0;
+    }
+
+
+    .profile {
+        left: 8%;
+    }
+
+    .bio {
+        font-weight: bold;
+        font-size: 42px;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 700px;
+        width: 100%;
+    }
+
+    .content {
+        position: absolute;
+        left: 16%;
+    }
+
+    .text {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .sub-points li {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    #about, #skills, #projects, #contact {
+        max-width: 90%;
+        scroll-padding: -50%;
+    }
+
+    .video {
+        max-width: 360px;
+    }
+
+}
