@@ -53,7 +53,7 @@ body {
 .line {
     position: absolute;
     top: 50%;
-    bottom: -1000%;
+    bottom: -300rem;
     left: 400px;
     z-index: 0;
     width: 1px;
