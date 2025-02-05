@@ -18,17 +18,22 @@ hiddenElements.forEach((element) => observer.observe(element));
 // Video Hover Effects
 const videos = document.querySelectorAll('.video');
 
-videos.forEach(video => {
-  video.addEventListener('mouseover', () => {
-    video.style.filter = "blur(0px)"
-    video.play();
-  });
+var windowWidth = window.innerWidth;
+var min_width = 768;
 
-  video.addEventListener('mouseout', () => {
-    video.style.filter = "blur(2px)"
-    video.pause();
+if(windowWidth => min_width){
+  videos.forEach(video => {
+    video.addEventListener('mouseover', () => {
+      video.style.filter = "blur(0px)"
+      video.play();
+    });
+
+    video.addEventListener('mouseout', () => {
+      video.style.filter = "blur(2px)"
+      video.pause();
+    });
   });
-});
+}
 
 
 // Copy email to clipboard function
