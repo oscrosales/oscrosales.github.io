@@ -1,3 +1,4 @@
+// Scrolling Animations
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
@@ -14,6 +15,7 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((element) => observer.observe(element));
 
 
+// Video Hover Effects
 const videos = document.querySelectorAll('.video');
 
 videos.forEach(video => {
@@ -27,3 +29,13 @@ videos.forEach(video => {
     video.pause();
   });
 });
+
+
+// Copy email to clipboard function
+const email = "oscar.rosales1018@gmail.com"
+
+function copyEmail() {
+  navigator.clipboard.writeText(email);
+
+  alert("E-mail copied to clipboard!")
+}

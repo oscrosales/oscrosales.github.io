@@ -24,26 +24,31 @@ h6 {
     scroll-padding-top: 25%;
 }
 
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 /* MAIN COMPONENTS */
 
 .gradient-container {
-    overflow: hidden;
     background-image: linear-gradient(#271F47 39%, #2E2E2E 96%);
-    width: 100%;
+    background-size: cover;
 }
 
 .main-container {
-    overflow: hidden;
     background: #2E2E2E;
-    height: 250rem;
-    width: 100%;
+    height: 300rem;
+    background-size: cover;
 }
 
 .line {
     position: absolute;
     top: 50%;
     bottom: -1000%;
-    left: 24%;
+    left: 400px;
     z-index: 0;
     width: 1px;
     background-color: #747474;
@@ -57,7 +62,7 @@ h6 {
     width: 1.5rem;
     height: 1.5rem;
     margin-bottom: -46px;
-    margin-left: -9.9%;
+    margin-left: -102px;
     margin-top: 30%;
     background-color: #2E2E2E;
 }
@@ -80,7 +85,6 @@ h6 {
 }
 
 .video {
-    transition: all 800ms;
     filter: blur(2px);
 }
 
@@ -129,14 +133,14 @@ h6 {
 /* CONTENT */
 .content {
     position: absolute;
-    left: 30%;
+    left: 485px;
 }
 
 /* PROFILE */
 .profile {
     position: absolute;
     top: 0;
-    left: 12.5%;
+    left: 182px;
     z-index: 50;
 }
 
@@ -168,7 +172,7 @@ h6 {
 /* ABOUT */
 
 .text {
-    max-width: 55%;
+    max-width: 60%;
     letter-spacing: normal;
     font-size: 22px;
     font-weight: normal;
@@ -203,3 +207,8 @@ ul li {
     .link:hover {
         color: rgb(62, 115, 115);
     }
+
+.icons {
+    font-size: 45px;
+    color: rgb(156, 185, 209);
+}
