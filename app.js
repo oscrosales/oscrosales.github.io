@@ -24,12 +24,10 @@ var min_width = 768;
 videos.forEach(video => {
   video.addEventListener('mouseover', () => {
     video.style.filter = "blur(0px)"
-    video.play()
   });
 
   video.addEventListener('mouseout', () => {
-    video.style.filter = "blur(2px)"
-    video.pause()
+    video.style.filter = "blur(3px)"
   });
 });
 
