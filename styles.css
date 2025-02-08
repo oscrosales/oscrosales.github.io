@@ -92,6 +92,10 @@ h6 {
     filter: blur(2px);
 }
 
+footer {
+    margin-top: 15%;
+}
+
 /* NAVIGATION */
 .navbar {
     padding: 20px;
@@ -281,5 +285,4 @@ ul li {
     .video {
         max-width: 360px;
     }
-
 }
