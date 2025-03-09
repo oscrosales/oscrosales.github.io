@@ -227,6 +227,30 @@ ul li {
 
 
 @media screen and (max-width: 768px) {
+    html,
+    body,
+    section,
+    p,
+    header,
+    nav,
+    footer,
+    div,
+    article,
+    aside,
+    ol,
+    ul,
+    li,
+    h1,
+    h6 {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kantumruy Pro';
+        font-size: 24px;
+        color: white;
+        scroll-padding-top: 25%;
+    }
+
     .wrapper {
         margin: 0;
         padding: 0;
@@ -244,11 +268,12 @@ ul li {
 
 
     .profile {
-        left: 5%;
+        margin-left: -45%;
     }
 
     .profile img {
-        width: 400px;
+        width: 340px;
+        margin-left: 7%;
     }
 
     .bio {
